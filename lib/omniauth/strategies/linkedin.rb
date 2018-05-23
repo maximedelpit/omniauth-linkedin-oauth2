@@ -1,4 +1,5 @@
 require 'omniauth-oauth2'
+require 'pry-byebug'
 
 module OmniAuth
   module Strategies
