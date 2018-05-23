@@ -100,6 +100,7 @@ module OmniAuth
       private
 
       def option_fields
+        binding.pry
         fields = options.fields
         fields.map! do |f|
           if options.api_version == 'v2'
